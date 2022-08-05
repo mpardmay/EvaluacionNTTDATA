@@ -5,5 +5,10 @@ public class Main {
         System.out.println(miCuenta.getCantidad());
         miCuenta.retirar(60000);
         miCuenta.retirar(0);
+
+        //este ejercicio hace parte de la rama dev
+        Cuenta cuentaNueva = new Cuenta("prueba");
+        cuentaNueva.ingresar(600000);
+        cuentaNueva.retirar(60000);
     }
 }
