@@ -9,5 +9,7 @@ public class Main {
         Cuenta cuentaNuevaEnMain = new Cuenta("main");
         cuentaNuevaEnMain.ingresar(2000);
         cuentaNuevaEnMain.retirar(60000);
+        //esta es una modificacion del ejercicio de main
+        cuentaNuevaEnMain.retirar(1000);
     }
 }
